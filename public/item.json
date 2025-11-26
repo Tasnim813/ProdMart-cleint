@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Wireless Headphones",
+        "description": "Noise-cancelling over-ear wireless headphone.",
+        "price": 3200,
+        "image": "https://i.ibb.co.com/Gf1Fs8rN/Anker-A2668-735-Transformers-Ga-NPrime-65-W-Charger-Adapter-1-430x430.webp"
+    },
+    {
+        "title": "Smart Fitness Band",
+        "description": "Tracks heart rate, sleep, and workouts.",
+        "price": 1800,
+        "image": "https://i.ibb.co.com/Gf1Fs8rN/Anker-A2668-735-Transformers-Ga-NPrime-65-W-Charger-Adapter-1-430x430.webp"
+    },
+    {
+        "title": "Bluetooth Speaker",
+        "description": "Portable speaker with deep bass and long battery life.",
+        "price": 2400,
+        "image": "https://i.ibb.co.com/Gf1Fs8rN/Anker-A2668-735-Transformers-Ga-NPrime-65-W-Charger-Adapter-1-430x430.webp"
+    },
+    {
+        "title": "Laptop Backpack",
+        "description": "Durable, waterproof backpack with laptop compartment.",
+        "price": 1500,
+        "image": "https://i.ibb.co.com/Gf1Fs8rN/Anker-A2668-735-Transformers-Ga-NPrime-65-W-Charger-Adapter-1-430x430.webp"
+    },
+    {
+        "title": "Wireless Mouse",
+        "description": "Lightweight mouse with adjustable DPI settings.",
+        "price": 700,
+        "image": "https://i.ibb.co.com/Gf1Fs8rN/Anker-A2668-735-Transformers-Ga-NPrime-65-W-Charger-Adapter-1-430x430.webp"
+    },
+    {
+        "title": "USB-C Power Bank",
+        "description": "10000mAh fast charging power bank.",
+        "price": 1600,
+        "image": "https://i.ibb.co.com/Gf1Fs8rN/Anker-A2668-735-Transformers-Ga-NPrime-65-W-Charger-Adapter-1-430x430.webp"
+    }
+]
