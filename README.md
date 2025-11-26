@@ -1,4 +1,4 @@
-📦 ProdMart — Smart Product Management Dashboard
+###📦 ProdMart — Smart Product Management Dashboard
 
 ProdMart is a modern, fast, and user-friendly Product Management Dashboard built to simplify how products are added, managed, and viewed.
 It delivers a clean UI, smooth workflow, and secure authentication — perfect for e-commerce and inventory systems.
