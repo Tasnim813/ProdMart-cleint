@@ -8,9 +8,9 @@ It delivers a clean UI, smooth workflow, and secure authentication — perfect f
 | Platform | URL |
 |---------|-----|
 | **Live Client** |https://prodmant-client.vercel.app/ |
-| **Live API / Server** | https://prodexa-api.vercel.app |
-| **Client Repository** | https://github.com/LitanMolla/prodexa-client |
-| **Server Repository** | https://github.com/LitanMolla/prodexa-server |
+| **Live API / Server** | https://prodmart-server.vercel.app/ |
+| **Client Repository** | https://github.com/Tasnim813/ProdMart-cleint |
+| **Server Repository** | https://github.com/Tasnim813/ProdMart-Server |
 🔐 Authentication
 
 Firebase Email/Password Auth
