@@ -2,30 +2,68 @@
 
 ProdMart is a modern, fast, and user-friendly Product Management Dashboard built to simplify how products are added, managed, and viewed.
 It delivers a clean UI, smooth workflow, and secure authentication — perfect for e-commerce and inventory systems.
-🔗 Live Links
-Platform	URL
-Live Client	https://prodmart-server.vercel.app/
-Live API / Server	https://prodmart-server.vercel.app/p
-Client Repository	https://github.com/LitanMolla/prodexa-client
-Server Repository	https://github.com/LitanMolla/prodexa-server
+
 🚀 Features
-🔐 Authentication (Firebase Auth)
-Email/password login & registration
-Protected routes
-Auto session handling
-Redirects if not authenticated
-🛠 Tech Stack
+
+| Platform | URL |
+|---------|-----|
+| **Live Client** |https://prodmant-client.vercel.app/ |
+| **Live API / Server** | https://prodexa-api.vercel.app |
+| **Client Repository** | https://github.com/LitanMolla/prodexa-client |
+| **Server Repository** | https://github.com/LitanMolla/prodexa-server |
+🔐 Authentication
+
+Firebase Email/Password Auth
+
+Protected dashboard routes
+
+Auto-redirect for logged-in/out users
+
+📦 Product Management
+
+Add New Products
+
+Edit / Update Product Details
+
+Delete Products
+
+View Single Product Info
+
+Real-time Product List
+
+🎨 UI/UX
+
+Clean & modern dashboard layout
+
+Fully responsive (mobile, tablet & desktop)
+
+Tailwind CSS styling
+
+Smooth UX interactions
+
+⚡ Backend API (Node.js + Express + MongoDB)
+
+Secure REST API
+
+CRUD operations for products
+
+Connected to MongoDB database
+
+🛠️ Tech Stack
 Frontend
-Next.js (App Router)
-React.js
-Tailwind CSS
+
+Next.js 14 (App Router)
+
+React
+
 Firebase Authentication
-React Hook Form
-Axios
+
+Tailwind CSS
+
 Backend
+
 Node.js
+
 Express.js
-MongoDB Atlas
-Deployment
-Vercel (Client)
-Vercel Serverless API (Backend)
+
+MongoDB + Mongoose
