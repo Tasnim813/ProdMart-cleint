@@ -5,6 +5,7 @@ import Loader from '@/app/Component/Loader/Loader'
 import useAxios from '@/app/hook/useAxios'
 // import useAxios from '@/hooks/useAxios'
 // import Loader from '@/components/Loader/Loader'
+import PrivateRoute from '@/components/PrivateRoute/PrivateRoute'
 
 const ProductDetails = () => {
     const [loading, setLoading] = useState(false)
@@ -12,6 +13,7 @@ const ProductDetails = () => {
     const { id } = useParams()
     const router = useRouter()
     const [product, setProduct] = useState({})
+    
     useEffect(() => {
         setLoading(true)
         axios.get(`/products/${id}`)
@@ -29,6 +31,7 @@ const ProductDetails = () => {
     } = product || {};
     const formateDate = date ? new Date(date).toLocaleDateString() : "N/A";
     return (
+    <privateRoute>
         <div className="my-10 lg:my-20">
             <div className="container">
                 <div className="max-w-5xl mx-auto">
@@ -113,6 +116,7 @@ const ProductDetails = () => {
                 </div>
             </div>
         </div>
+        </privateRoute>
     )
 }
 
