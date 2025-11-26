@@ -7,12 +7,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.PUBLIC_apiKey,
-  authDomain: process.env.PUBLIC_authDomain,
-  projectId: process.env.PUBLIC_projectId,
-  storageBucket: process.env.PUBLIC_storageBucket,
-  messagingSenderId: process.env.PUBLIC_messagingSenderId,
-  appId:process.env.PUBLIC_appId,
+  apiKey: process.env.NEXT_PUBLIC_apiKey,
+  authDomain: process.env.NEXT_PUBLIC_authDomain,
+  projectId: process.env.NEXT_PUBLIC_projectId,
+  storageBucket: process.env.NEXT_PUBLIC_storageBucket,
+  messagingSenderId: process.env.NEXT_PUBLIC_messagingSenderId,
+  appId:process.env.NEXT_PUBLIC_appIdd,
 };
 
 
