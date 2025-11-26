@@ -11,7 +11,7 @@ It delivers a clean UI, smooth workflow, and secure authentication — perfect f
 | **Live API / Server** | https://prodmart-server.vercel.app/ |
 | **Client Repository** | https://github.com/Tasnim813/ProdMart-cleint |
 | **Server Repository** | https://github.com/Tasnim813/ProdMart-Server |
-🔐 Authentication
+
 
 Firebase Email/Password Auth
 
