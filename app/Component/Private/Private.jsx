@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import Loader from '../Loader/Loader';
 
-const privateRoute = ({children}) => {
+const Private = ({children}) => {
     const {user,loading}=useAuth()
     const router=useRouter()
     if(loading){
@@ -15,4 +15,4 @@ const privateRoute = ({children}) => {
     return children;
 };
 
-export default privateRoute;
+export default Private;

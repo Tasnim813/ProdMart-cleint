@@ -3,9 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import Loader from '@/app/Component/Loader/Loader'
 import useAxios from '@/app/hook/useAxios'
-// import useAxios from '@/hooks/useAxios'
-// import Loader from '@/components/Loader/Loader'
-import PrivateRoute from '@/components/PrivateRoute/PrivateRoute'
+import Private from '@/app/Component/Private/Private'
+
 
 const ProductDetails = () => {
     const [loading, setLoading] = useState(false)
@@ -31,8 +30,9 @@ const ProductDetails = () => {
     } = product || {};
     const formateDate = date ? new Date(date).toLocaleDateString() : "N/A";
     return (
-    <privateRoute>
+<Private>
         <div className="my-10 lg:my-20">
+        
             <div className="container">
                 <div className="max-w-5xl mx-auto">
                     <div className="bg-white rounded-3xl shadow-lg border border-slate-200/80 overflow-hidden">
@@ -116,7 +116,10 @@ const ProductDetails = () => {
                 </div>
             </div>
         </div>
-        </privateRoute>
+        </Private>
+        
+     
+        
     )
 }
 
